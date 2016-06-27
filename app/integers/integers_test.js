@@ -29,5 +29,7 @@ describe('myApp.integers module', function() {
       
       expect(true).toBe(true); 
     });
+    
+    //what other tests do you need?
   });
 });
