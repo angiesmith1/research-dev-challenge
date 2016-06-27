@@ -1,0 +1,52 @@
+<div class="well">
+    <h2>Largest Integer</h2>
+    <p>
+        <ol>
+            <li>
+                Implement a Javascript function that takes any comma delimited string as a parameter and
+                returns the LARGEST integer value. The user will enter the string in the text box below and
+                the result will display in the panel.  If the string does not return any integers, "No Integers 
+                Found" should be displayed.  Sample I/O:
+
+                <ul>
+                    <li>input: "10, 3, 232, ,3000, 120, B, 51, 6, 7, 120, 10, 10" - output: "3000"</li>
+                    <li>input: "A, B, C" - output: "no integers found"</li>
+                    <li>input: "500, 11, 222, 44  , 6 ,   7, 22,Z," - output: "500"</li>
+                    <li>input: "" - output: "no integers found"</li>
+                    <li>input: "-3, 0, -1" - output: "0"</li>
+                </ul>
+            </li>
+            <li>
+                Make the text box required so that the user cannot click on the Submit button if there is no value.
+            </li>
+            <li>
+               Use the class panel-danger to make the results panel red if the result is "No Integers Found".
+            </li>  
+            <li>
+                Write unit tests to validate your controller.  Execute npm test to run the unit tests.
+            </li>              
+        </ol>           
+    </p>
+</div>
+
+<div>
+    <form name="myForm">
+        <div class="form-group">
+            <label class="control-label">String to Parse</label>
+            <div class="col-lg-10 input-group">
+                <input type="text" class="form-control" placeholder="Enter a string to find the largest integer...">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="button">Submit</button>
+                </span>
+            </div>
+        </div>
+    </form>
+    
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <p>{{result}}</p>
+        </div>
+    </div>
+</div>
+
+
