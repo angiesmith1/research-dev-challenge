@@ -9,8 +9,6 @@ To get started simply clone the research-dev-challenge repository and install th
 
 ### Clone research-dev-challenge
 
-Clone the angular-seed repository using [git][git]:
-
 ```
 git clone https://github.com/angiesmith1/research-dev-challenge.git
 cd research-dev-challenge
