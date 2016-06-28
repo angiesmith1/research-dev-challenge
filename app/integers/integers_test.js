@@ -21,11 +21,16 @@ describe('myApp.integers module', function() {
     
     it('should find the largest integer if more than 1 integer is input', function() {
       //for more information on writing jasmine unit tests:  http://jasmine.github.io/2.4/introduction.html
+      //run the tests with npm test
       
       // 1.  set up your data for testing
+      // var testData = <data here>;
       // 2.  assign your data to the model
+      // $scope.<your model> = testData;
       // 3.  execute your function 
+      // $scope.<your function>;
       // 4.  expect a result   
+      // expect(<your result>).toBe(<the expected result>);
       
       expect(true).toBe(true); 
     });
